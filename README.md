@@ -7,8 +7,4 @@ Ideal para quem precisa pegar coordenadas paar enviar cliques depois.<br>
 <li>npm install robotjs</li>
 </ul>
 
-<code>
 
-npm install robotjs
-
-  </code>
