@@ -7,4 +7,15 @@ Ideal para quem precisa pegar coordenadas paar enviar cliques depois.<br>
 <li>npm install robotjs</li>
 </ul>
 
+ <input type="text" id="input" value="npm install robotjs">
 
+    <button onclick="copiarParaClipboard()">Copiar</button>
+
+    <script>
+      function copiarParaClipboard() {
+        var input = document.getElementById("input");
+        input.select();
+        document.execCommand("copy");
+        alert("Valor copiado para o clipboard: " + input.value);
+      }
+    </script>
